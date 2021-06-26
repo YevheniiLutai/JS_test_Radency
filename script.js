@@ -44,8 +44,8 @@ const chooseBestDistance = (t, k, ls) => {
   }
 };
 
-chooseBestDistance(174, 3, [51, 56, 58, 59, 61]); //173
-chooseBestDistance(5, 2, [1, 2, 3]); //5
+chooseBestDistance(174, 3, [51, 56, 58, 59, 61]); // 173
+chooseBestDistance(5, 2, [1, 2, 3]); // 5
 chooseBestDistance(163, 4, [50]); // null
 chooseBestDistance(180, 3, [51, 56, 58, 59, 61, 62, 63, 64, 65, 67]); // 180
 chooseBestDistance(153, 3, [41, 42, 48, 47, 66, 56]); // 151
